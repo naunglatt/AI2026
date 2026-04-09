@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Naung Latt Htun | AI in Research</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        
+        body {
+            font-family: 'Inter', sans-serif;
+            scroll-behavior: smooth;
+            background-color: #0f172a;
+            color: #f8fafc;
+        }
+
+        .glass-card {
+            background: rgba(30, 41, 59, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+        }
+
+        .gradient-text {
+            background: linear-gradient(90deg, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .nav-link {
+            transition: all 0.3s ease;
+        }
+
+        .nav-link:hover {
+            color: #38bdf8;
+        }
+
+        .section-padding {
+            padding: 5rem 1rem;
+        }
+
+        .course-module:hover {
+            transform: translateY(-5px);
+            transition: transform 0.3s ease;
+            border-color: #38bdf8;
+        }
+
+        .hero-bg {
+            background: radial-gradient(circle at top right, rgba(56, 189, 248, 0.15), transparent),
+                        radial-gradient(circle at bottom left, rgba(129, 140, 248, 0.15), transparent);
+        }
+    </style>
+</head>
+<body class="hero-bg">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full z-50 top-0 bg-slate-900/80 backdrop-blur-md border-b border-white/10">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0 font-bold text-xl gradient-text">
+                    DR. NLHTUN
+                </div>
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-4">
+                        <a href="#about" class="nav-link px-3 py-2 text-sm font-medium">About Me</a>
+                        <a href="#course" class="nav-link px-3 py-2 text-sm font-medium">The Course</a>
+                        <a href="#submissions" class="nav-link px-3 py-2 text-sm font-medium">Submissions</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="pt-32 pb-16 px-4">
+        <div class="max-w-7xl mx-auto text-center">
+            <h1 class="text-5xl md:text-7xl font-bold mb-6">
+                Bridging <span class="gradient-text">Medicine</span> & <span class="gradient-text">AI</span>
+            </h1>
+            <p class="text-xl text-slate-400 max-w-2xl mx-auto mb-10">
+                Dr. Naung Latt Htun • Internal Medicine Specialist • MRCP (UK)
+                Exploring the frontiers of AI-assisted scientific research and clinical excellence.
+            </p>
+            <div class="flex justify-center gap-4">
+                <a href="#submissions" class="bg-sky-500 hover:bg-sky-600 px-8 py-3 rounded-full font-semibold transition">View My Work</a>
+                <a href="#about" class="border border-white/20 hover:bg-white/5 px-8 py-3 rounded-full font-semibold transition">Full Bio</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="max-w-5xl mx-auto">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="glass-card p-8">
+                    <h2 class="text-3xl font-bold mb-6 border-b border-white/10 pb-2">Academic Profile</h2>
+                    <ul class="space-y-4">
+                        <li class="flex items-start">
+                            <i class="fas fa-certificate mt-1 mr-3 text-sky-400"></i>
+                            <span><strong>MRCP (UK)</strong> - Internal Medicine (2024)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-graduation-cap mt-1 mr-3 text-sky-400"></i>
+                            <span><strong>M.Med.Sc</strong> - Internal Medicine, UM2 Yangon</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-microscope mt-1 mr-3 text-sky-400"></i>
+                            <span><strong>Principal Investigator</strong> - Chemsex Research (2024)</span>
+                        </li>
+                    </ul>
+                    <p class="mt-6 text-slate-400 leading-relaxed">
+                        Currently serving as an Internal Medicine Registrar with a passion for integrating digital health solutions in conflict-affected regions. My research focus includes lipid profile alterations in liver cirrhosis and high-risk behaviors in public health.
+                    </p>
+                </div>
+                <div>
+                    <h2 class="text-4xl font-bold mb-6">About Me</h2>
+                    <p class="text-lg text-slate-300 mb-6">
+                        I am a dedicated physician with over a decade of clinical experience spanning Myanmar, Brunei, and the Maldives. My journey into AI stems from a desire to optimize healthcare delivery and research efficiency.
+                    </p>
+                    <div class="grid grid-cols-2 gap-4">
+                        <div class="bg-white/5 p-4 rounded-lg">
+                            <span class="block text-2xl font-bold text-sky-400">10+</span>
+                            <span class="text-sm text-slate-400 uppercase tracking-wider">Years Experience</span>
+                        </div>
+                        <div class="bg-white/5 p-4 rounded-lg">
+                            <span class="block text-2xl font-bold text-sky-400">PI</span>
+                            <span class="text-sm text-slate-400 uppercase tracking-wider">Active Researcher</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Course Section -->
+    <section id="course" class="section-padding bg-slate-900/50">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">The AI in Research Course</h2>
+                <p class="text-slate-400">Mastering the tools that are redefining the scientific workflow.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <!-- Module 1 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-address-card text-3xl text-sky-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Portfolio Building</h3>
+                    <p class="text-slate-400 text-sm">Crafting a digital identity that showcases clinical and research milestones through code.</p>
+                </div>
+
+                <!-- Module 2 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-chart-line text-3xl text-purple-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">AI Data Analysis</h3>
+                    <p class="text-slate-400 text-sm">Leveraging 'Vibe Coding' and AI to transform raw clinical data into actionable insights.</p>
+                </div>
+
+                <!-- Module 3 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-book-open text-3xl text-sky-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Literature Review</h3>
+                    <p class="text-slate-400 text-sm">Utilizing AI-assisted Systematic Literature Review (SLR) to map complex medical domains.</p>
+                </div>
+
+                <!-- Module 4 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-palette text-3xl text-purple-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Scientific Illustration</h3>
+                    <p class="text-slate-400 text-sm">Creating high-impact visual abstracts and medical diagrams with AI generative tools.</p>
+                </div>
+
+                <!-- Module 5 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-pen-nib text-3xl text-sky-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Manuscript Writing</h3>
+                    <p class="text-slate-400 text-sm">Enhancing drafting speed and clarity while maintaining rigorous academic standards.</p>
+                </div>
+
+                <!-- Module 6 -->
+                <div class="glass-card p-6 course-module">
+                    <i class="fas fa-file-excel text-3xl text-purple-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">AI with Excel/Sheets</h3>
+                    <p class="text-slate-400 text-sm">Automating data cleaning and complex formula generation for medical registries.</p>
+                </div>
+
+                <!-- Module 7 -->
+                <div class="glass-card p-6 mx-auto md:col-span-3 w-full md:w-1/3 text-center course-module">
+                    <i class="fas fa-robot text-3xl text-sky-400 mb-4"></i>
+                    <h3 class="text-xl font-bold mb-2">Workflows & Chatbots</h3>
+                    <p class="text-slate-400 text-sm">Building custom AI assistants to automate repetitive research tasks and triage data.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Submissions Section -->
+    <section id="submissions" class="section-padding">
+        <div class="max-w-7xl mx-auto">
+            <div class="flex justify-between items-end mb-12">
+                <div>
+                    <h2 class="text-4xl font-bold mb-2">Weekly Submissions</h2>
+                    <p class="text-slate-400">My journey through the course, updated weekly.</p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Submission 1 -->
+                <div class="border border-white/10 rounded-xl p-4 hover:bg-white/5 transition group">
+                    <span class="text-xs text-sky-400 font-bold tracking-widest uppercase">Week 01</span>
+                    <h4 class="text-lg font-bold mt-2">Portfolio Website</h4>
+                    <p class="text-slate-500 text-sm mt-2 mb-4">Building this responsive portfolio to host my research work.</p>
+                    <a href="#" class="inline-block text-sky-400 text-sm font-semibold group-hover:translate-x-1 transition-transform">
+                        Coming Soon <i class="fas fa-arrow-right ml-1"></i>
+                    </a>
+                </div>
+
+                <!-- Submission 2 -->
+                <div class="border border-white/10 rounded-xl p-4 hover:bg-white/5 transition group opacity-60">
+                    <span class="text-xs text-slate-500 font-bold tracking-widest uppercase">Week 02</span>
+                    <h4 class="text-lg font-bold mt-2">Data Vibe Analysis</h4>
+                    <p class="text-slate-500 text-sm mt-2 mb-4">Automated analysis of liver cirrhosis lipid profiles.</p>
+                    <span class="text-slate-600 text-sm italic">In Progress</span>
+                </div>
+
+                <!-- Submission 3 -->
+                <div class="border border-white/10 rounded-xl p-4 hover:bg-white/5 transition group opacity-60">
+                    <span class="text-xs text-slate-500 font-bold tracking-widest uppercase">Week 03</span>
+                    <h4 class="text-lg font-bold mt-2">Literature Map</h4>
+                    <p class="text-slate-500 text-sm mt-2 mb-4">Systematic review of Chemsex behaviors in SEA.</p>
+                    <span class="text-slate-600 text-sm italic">In Progress</span>
+                </div>
+
+                <!-- Submission 4 -->
+                <div class="border border-white/10 rounded-xl p-4 hover:bg-white/5 transition group opacity-60">
+                    <span class="text-xs text-slate-500 font-bold tracking-widest uppercase">Week 04</span>
+                    <h4 class="text-lg font-bold mt-2">Visual Abstracts</h4>
+                    <p class="text-slate-500 text-sm mt-2 mb-4">Generating medical illustrations for publications.</p>
+                    <span class="text-slate-600 text-sm italic">In Progress</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-10 border-t border-white/10 text-center">
+        <div class="max-w-7xl mx-auto px-4">
+            <p class="text-slate-500 mb-4">&copy; 2026 Dr. Naung Latt Htun. Built with AI for the AI in Research Course.</p>
+            <div class="flex justify-center space-x-6 text-slate-400">
+                <a href="#" class="hover:text-white transition"><i class="fab fa-linkedin text-xl"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fab fa-github text-xl"></i></a>
+                <a href="#" class="hover:text-white transition"><i class="fas fa-globe text-xl"></i></a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
