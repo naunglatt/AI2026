@@ -12,14 +12,12 @@
         body {
             font-family: 'Inter', sans-serif;
             scroll-behavior: smooth;
-            /* Updated to a much cleaner, deeper background for better contrast */
             background-color: #020617;
             color: #f1f5f9;
             line-height: 1.6;
         }
 
         .glass-card {
-            /* Increased opacity and border contrast for clarity */
             background: rgba(15, 23, 42, 0.8);
             backdrop-filter: blur(16px);
             border: 1px solid rgba(255, 255, 255, 0.15);
@@ -57,11 +55,26 @@
             background: rgba(30, 41, 59, 0.5);
         }
 
-        /* Subtle glows instead of heavy gradients for a cleaner look */
         .hero-bg {
             background-image: 
                 radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
                 radial-gradient(at 100% 100%, rgba(129, 140, 248, 0.08) 0px, transparent 50%);
+        }
+
+        .profile-avatar {
+            width: 180px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 4px solid rgba(56, 189, 248, 0.3);
+            box-shadow: 0 0 25px rgba(56, 189, 248, 0.2);
+            margin-bottom: 2rem;
+            transition: transform 0.3s ease;
+        }
+
+        .profile-avatar:hover {
+            transform: scale(1.05);
+            border-color: rgba(56, 189, 248, 0.6);
         }
 
         h1, h2, h3 {
@@ -90,8 +103,11 @@
     </nav>
 
     <!-- Hero Section -->
-    <header class="pt-48 pb-24 px-4">
+    <header class="pt-40 pb-24 px-4">
         <div class="max-w-7xl mx-auto text-center">
+            <!-- Avatar Insertion -->
+            <img src="IMG_4129.jpeg" alt="Dr. Naung Latt Htun" class="profile-avatar mx-auto" onerror="this.style.display='none'">
+            
             <h1 class="text-6xl md:text-8xl font-extrabold mb-8 tracking-tighter">
                 Bridging <span class="gradient-text">Medicine</span> <br class="hidden md:block">& <span class="gradient-text">AI</span>
             </h1>
